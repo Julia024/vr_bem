@@ -1,0 +1,44 @@
+.root {
+    margin: 90px 70px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:last baseline;
+}
+.header__logo {
+    display: flex;
+}
+.header__img {
+}
+.header__text {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.button {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #5222D0;
+    color: white;
+    padding: 10px;
+    border-radius: 90px;
+}
+.header__button {
+}
+.main {
+}
+.main__article {
+}
+.main__title {
+}
+.main__text {
+}
+.main__button {
+}
+.footer {
+}
+.footer__list {
+}
+.footer__item {
+}
