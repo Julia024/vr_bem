@@ -10,8 +10,6 @@
 .header__logo {
     display: flex;
 }
-.header__img {
-}
 .header__text {
     font-size: 1.1rem;
     font-weight: 900;
@@ -28,50 +26,52 @@
     padding: 0.8rem;
     font-size: 0.8rem;
 }
-.header__button {
-
+.main {
+    margin-top: 4rem;
+    padding-left: 40px;
 }
-
+.main__title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main__title_small {
+    font-size: 1.8rem;
+}
 .main__section {
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 
 }
 .main__article {
-    padding-left: 40px;
-
+    
 }
-.main__title {
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    font-weight: 900;
-
+.main__img {
+    max-width: 365px;
+    max-height: 270px;
 }
 .main__text {
     font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.9rem
-}
-.main__button_big {
-    font-size: 2.2rem;
-    padding: 1.7rem;
-
-}
-.main__image {
-    position:relative
-
-}
-.main__image_bg {
-    position: relative;
-    max-width: 700px;
+    font-weight: 200;
+    line-height: 1.9rem;
 }
 
-.main__image_boy {
-    position: absolute;
-    right: 100px;
-    height: 600px;
+.main__article_form{
+    background-color: #ec615a;
+    padding-left: 1.1rem;
+    color: white;
+
+
 }
+.main__form {
+    display: flex;
+    width: 320px;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
 .footer {
+    margin-top: 4rem;
     padding-left: 40px;
 }
 .footer__list {
@@ -87,5 +87,5 @@
 }
 .footer__link {
     text-decoration: none;
-    color: rgb(102, 47, 185);
+    color: black;
 }

@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
 
     <link rel="stylesheet" href="assets/style/style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +20,7 @@
         <header class="header">
             <div class="header__logo">
                 <img src="./assets/images/logo.svg" alt="" class="header__img">
-                <p class="header__text">виарушка</p>
+                <a href="index.html" class="header__text">виарушка</a>
             </div>
                 <button class="header__button button">корзина
                     <img src="assets/images/button-cart.svg" alt="" class="header__button-img">
@@ -22,21 +28,29 @@
         </header>
 
         <main class="main">
-            <div class="main__article">
-                <h1  class="main__title">Виртуальная реальность без проводов</h1>
-                <p class="main__text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
-                <button class="main__button button">купить
-                    <img src="assets/images/button-buy.svg" alt="" class="button__buy">
-                </button>
+            <div class="main__section">
+                <div class="main__article">
+                    <h1  class="main__title">Виртуальная реальность без проводов</h1>
+                    <p class="main__text">Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем без проводов и дорогих комьютеров.</p>
+                    <button class="main__button_big button ">купить
+                        <img src="assets/images/button-buy.svg" alt="" class="button__buy">
+                    </button>
+                </div>
+                <div class="main__image">
+                        <img src="assets/images/bg.svg" alt="background" class="main__image_bg">
+                        <img src="assets/images/boy.svg" alt="boy" class="main__image_boy">
+                </div>
             </div>
         </main>
+
+
         <footer class="footer">
             <ul class="footer__list">
-                <li class="footer__item"><a href="">Возможности</a></li>
-                <li class="footer__item"><a href="">Помощь</a></li>
-                <li class="footer__item"><a href="">Доставка</a></li>
-                <li class="footer__item"><a href="">Где купить</a></li>
-            </ol>
+                <li class="footer__item"><a href="page2.html" class="footer__link">Возможности</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Помощь</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Доставка</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Где купить</a></li>
+            </ul>
         </footer>
     </div>
 </body>
